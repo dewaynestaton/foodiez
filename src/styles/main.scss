@@ -1,3 +1,45 @@
 $bodyFont:'Shadows Into Light', cursive;
-$headingFont: 'Special Elite', cursive;
+$subtextFont: 'Special Elite', cursive;
 
+* {
+    box-sizing: border-box;
+}
+
+.social-media-section {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.social-media-section .location-link{
+    color: #fff;
+    font-size: 14px;
+    font-family: $subtextFont;
+}
+
+.social-media-section .sm-icons .sm-links {
+    list-style: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.social-media-section .sm-icons .sm-links i:hover {
+    color: crimson;
+}
+
+.navigation-section {
+    font-family: $bodyFont;
+    font-size: 24px;
+    background: url(../images/);
+
+    .nav-links-section .nav-links-list .nav-item .nav-link:hover {
+        color: crimson;
+        transition: .1s ease-in;
+    }
+}
+
+.featured-items-section .featured-item {
+    border: 1px solid black;
+}
+
+.featured-items-section .featured-item .item-1 {
+    background-image: url("../images/rice-and-meat.jpg") no-repeat cover center center;
+}
